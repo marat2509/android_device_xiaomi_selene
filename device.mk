@@ -154,6 +154,7 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     libdrm.vendor \
+    libfmq.vendor \
     libvulkan
 
 # DRM
