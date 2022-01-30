@@ -38,6 +38,9 @@ TARGET_SUPPORTS_QUICK_TAP := true
 $(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
+# ANXCamera
+$(call inherit-product-if-exists, vendor/aeonax/ANXCamera/anx-vendor.mk)
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := selene
 PRODUCT_NAME := cherish_selene
